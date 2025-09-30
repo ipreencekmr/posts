@@ -1,12 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    resolve:{
-    fallback: {
-        fs: false,
-    }
-    }
-};
+const nextConfig = {};
 
 export default nextConfig;
-
-
